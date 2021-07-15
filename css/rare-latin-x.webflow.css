@@ -510,7 +510,7 @@ body {
   overflow: visible;
   width: auto;
   height: 6em;
-  margin: 0px 0px 0px -48px;
+  margin: 0px;
   padding: 40px 60px 40px 46px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -534,7 +534,7 @@ body {
   font-family: Poppins, sans-serif;
   color: #000;
   font-size: 45px;
-  line-height: 45px;
+  line-height: 50px;
   font-weight: 100;
   text-align: left;
   text-transform: capitalize;
@@ -1464,8 +1464,8 @@ body {
 .lottie-animation-7 {
   position: fixed;
   overflow: hidden;
-  width: 600px;
-  height: 953px;
+  width: 109%;
+  height: 131%;
   margin-top: -23px;
   margin-right: -14px;
   margin-left: 142px;
@@ -1559,7 +1559,7 @@ body {
     overflow: visible;
     width: 90%;
     height: 90%;
-    margin: 0px auto 0px -18px;
+    margin: 0px auto;
     padding-right: 40px;
     padding-bottom: 0px;
     padding-left: 40px;
@@ -1871,7 +1871,7 @@ body {
     overflow: visible;
     width: 60vw;
     height: 100em;
-    margin: 10px 0px -971px 94px;
+    margin: 10px 0px 0px 94px;
     padding: 0px;
     float: left;
     clear: both;
