@@ -1482,6 +1482,47 @@ body {
   background-color: #000;
 }
 
+.preloader {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0px;
+  background-color: #020202;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #67a1a1, transparent 32%), radial-gradient(circle farthest-corner at 50% 50%, rgba(61, 25, 172, 0.52), hsla(0, 0%, 100%, 0));
+  opacity: 1;
+  -webkit-filter: blur(0px) contrast(106%);
+  filter: blur(0px) contrast(106%);
+  -webkit-transition: opacity 50ms ease, background-color 925ms ease;
+  transition: opacity 50ms ease, background-color 925ms ease;
+  background-clip: content-box;
+}
+
+.lottie-animation-8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
 @media screen and (max-width: 991px) {
   .sticky-nav {
     left: 0%;
